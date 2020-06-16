@@ -1,0 +1,63 @@
+
+body{
+    background-color:lightgoldenrodyellow  ;
+    margin:5px;
+  }
+.logo{
+    
+    width: 100px;
+    height:100%;    
+    margin-top: 10px;;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel{
+    height:400px;
+    margin:10px;
+}
+.carousel .item{
+    height:400px; 
+    width:100%;   
+
+}
+.carousel-inner>.item>img{
+    position: absolute;
+    height:400px;
+    min-width:100%;
+   opacity: 0.7;
+    margin-bottom: 20px;
+}
+.t1{
+    color: grey;
+}
+
+.img1{
+    height:auto;
+    width:100%;
+   
+}
+/*------------------------------------------------ footer section------------------------------------------ */
+.ftco-footer {
+    font-size: 16px;
+    background: #000000;
+    padding: 2em 0;
+    z-index: 0; 
+    
+}
+.img2{
+    width:80%;
+    height:auto;
+
+}
+.trans{
+    color: transparent;
+}
+.sec{
+    margin-left: 0px;
+    width:30%;
+    border-color: blueviolet;
+    
+    
+  }
+/*----------------------------------------------- End of footer-------------------------------------------- */
