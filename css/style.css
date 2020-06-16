@@ -1,8 +1,9 @@
 
 body{
     background-color:white  ;
-    margin:5px;
-    padding-top: 50px;
+    margin:0px;
+    padding-top:60px;
+    
   }
 .logo{
     
@@ -68,9 +69,10 @@ body{
 }
 
 .img1{
+    
     height:auto;
     width:100%;
-   
+    
 }
 /*---------------------------------------------- carousel end --------------------------------------------- */
 
@@ -87,7 +89,12 @@ body{
 .cen{
     text-align: center;
 }
+.img2{
+    width:80%;
+    height:auto;
 
+}
+/*------------------------------------------- contact section -------------------------------------------- */
 .box{
     margin:10px;
     box-shadow: 3x 30px rgba(0,0,0,.9);
@@ -106,27 +113,55 @@ body{
 .p-4 {
     padding: 1.5rem !important; 
 }
+.padi{
+    padding: 30px 0px;
+}
 .siza{
     font-size: 80px;
     margin: 40px;
     color: blueviolet;
   
 }
+.bac{
+    background-color: whitesmoke;
+    padding:0px;
+    margin:0px;
+}
+ .contact-form .btn-primary {
+    display: block;
+    width: 100%; } 
+.py-3 {
+        padding-top: 1rem !important; }
+.px-5 {
+        padding-right: 3rem !important; }
+.centa{
+    color: blueviolet;
+    text-align:center;
+    font:bold;
+    font-weight:500;
+    font-size: 50px;
+}
+.img3{
+     width: 100%;
+    background-position: top center; 
+  }
+.marg{
+    margin-top:80px;
+    margin-bottom: 20px;
+}
 
+
+/*-------------------------------------------- contact section end  ---------------------------------------*/
 /*------------------------------------------------ footer section------------------------------------------ */
 .ftco-footer {
     font-size: 16px;
     color: whitesmoke;
     background: #000000;
-    padding: 2em 0;
+    /* padding: 2em 0; */
     z-index: 0; 
     
 }
-.img2{
-    width:80%;
-    height:auto;
 
-}
 .trans{
     color: transparent;
 }
@@ -161,3 +196,8 @@ body{
   
 }
 /*----------------------------------------------- End of footer-------------------------------------------- */
+
+*{
+    margin:0;
+    padding:0;
+}
