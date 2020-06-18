@@ -8,8 +8,16 @@ body{
 html {
     font-family: sans-serif;
     line-height: 1.15;
+    color: blueviolet;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(243, 11, 11, 0); 
+}
+.cent{
+    text-align:center;
+    font:bold;
+    font-weight:700;
+    font-size: 50px;
+    color:blueviolet;
 }
 /*----------------------------------------------------------- navbar --------------------------------------*/
 .logo{
@@ -34,12 +42,14 @@ html {
 
 /*------------------------------------------------ banner area  ---------------------------------------------*/
 .text{
+    text-align: left;
     padding-top: 20%;
     font-weight: 1000;
     font:bold;
 }
 
 .text::after{
+
     content:"";
     height:2px;
     width:18vw;
@@ -48,10 +58,15 @@ html {
     margin-left: 3%;
 }
 .txt{
+    text-align: left;
     font-size: 50px;
     font:bold;
 }
+.tot{
+    margin-top:10px;
+}
 .texte{
+    text-align: left;
     font-weight: 1000;
     font:bold;
     padding-bottom: 20%;
@@ -91,24 +106,16 @@ html {
 .cen{
     text-align: center;
 }
-.cent{
-    text-align:center;
-    font:bold;
-    font-weight:700;
-    font-size: 50px;
-}
+
 .back{
-    padding:20px;
+    padding:0px;
     text-align: justify;
 }
 .no-marg{
     margin: 0px;
     padding:0px;
 }
-.img2{
-    width:100%;
-    height:auto;
-}
+
 /*-----------------------------------------end of about section  -------------------------------------*/
 .boxa{
     margin:10px;
@@ -170,6 +177,7 @@ html {
     background-color: whitesmoke;
     padding:0px;
     margin:0px;
+    margin-left:50px;
 }
  .contact-form .btn-primary {
     display: block;
@@ -187,7 +195,9 @@ html {
 }
 .img3{
      width: 100%;
-    background-position: top center; 
+    margin:20px;
+    padding-top:20px;
+    padding-right:40px;
   }
 .marg{
     margin-top:80px;
@@ -227,7 +237,7 @@ html {
     text-align: justify;
 }
 .webb{
-    padding: 5px;
+
     padding-left: 20px;
 } 
 .siz{
