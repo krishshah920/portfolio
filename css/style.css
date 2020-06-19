@@ -57,9 +57,10 @@ html {
   color: #fff; }
 .nav-item:hover{
     border-bottom: 3px solid red;
+   
 }
 .pad{
-    margin-right:10%;
+    margin-right:5%;
 } 
 .nav-link{
     font-size: medium;
@@ -168,6 +169,12 @@ ul.about-info {
           color: #000000;
           width: 130px; }
 /*-----------------------------------------end of about section  -------------------------------------*/
+.lo{
+    background: url(/images/bg_2.jpg);
+    width:100%;
+    height:auto;
+    margin-top:60px;
+}
 .boxa{
     margin:10px;
     box-shadow: 3x 30px rgba(0,0,0,.9);
