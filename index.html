@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"id="bootstrap-css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">    
@@ -14,28 +15,33 @@
 <body>
   <!---------------------------------------- Navbar Section ------------------------------------------->
   <div class="container">
-    <nav class="navbar navbar-default  navbar-fixed-top mb-4">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="index.html"><span>K</span>rishna</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><span class="k">K</span><span class="r">rishna</span></a>
-      </div>
   
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right pad colo">
-            <li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-      </div><!-- /.navbar-collapse -->
-    </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav navbar-right ml-auto topnav">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                 
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                  </li>
+                 
+                  
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  
+              </ul>
+          </div>
+      </nav>
   </div><!-- /.container -->
   <!------------------------------------- End of Navbar section --------------------------------------->
 
@@ -46,7 +52,7 @@
       <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
         <h3 class="text">HEY</h3>
         <h1 class="txt">I AM KRISHNA</h1>
-        <h4 class="texte">Freelancer+Designer+Developer</h4>
+        <h4 class="texte">Designer+Developer</h4>
       </div> 
       <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12   ">
         <img class="img1 img3" src="./images/pic1.jpg" alt="mypic">
@@ -57,12 +63,12 @@
 
 
   <!---------------------------------------- About section  ------------------------------------------->
-  <div class="conatainer-fluid marg shadow " id="about">
-   <div class="row no-marg">   
-     <h1 class="cent">About Me</h1>
-     <hr class="seca">
-     <h4 class="text-muted lar cen " text-align=center>“The only portfolio that matters is the one that I leave in people’s hearts.”</h4>
-    
+  <div class="conatainer-fluid marg nomarg   shadow " id="about">
+    <h1 class="cent">About Me</h1>
+    <hr class="seca">
+    <h4 class="text-muted lar cen " text-align=center>“The only portfolio that matters is the one that I leave in people’s hearts.”</h4>
+
+   <div class="row">   
       <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 back">
         <img class=" im" src="./images/pic3.jpg" alt="about">
       </div>
@@ -78,12 +84,12 @@
           I have designed and developed over 30 websites of different categories.
           I am a part time Freelancer and programmer. </p>
         <ul class="about-info ">
-          <li class="d-flex"><span>Name:</span> <span>Krishna Shahu</span></li>
-          <li class="d-flex"><span>Date of birth:</span> <span>November 18, 2000</span></li>
-          <li class="d-flex"><span>Address:</span> <span>HKBKCE, Banglore</span></li>
-          <li class="d-flex"><span>Zip code:</span> <span>560045</span></li>
-          <li class="d-flex"><span>Email:</span> <span>krishshah920@gmail.com</span></li>
-          <li class="d-flex"><span>Phone: </span> <span>+91 9880924015</span></li>
+          <li><span>Name:</span> <span>Krishna Shahu</span></li>
+          <li><span>Date of birth:</span> <span>November 18, 2000</span></li>
+          <li><span>Address:</span> <span>HKBKCE, Banglore</span></li>
+          <li><span>Zip code:</span> <span>560045</span></li>
+          <li><span>Email:</span> <span>krishshah920@gmail.com</span></li>
+          <li><span>Phone: </span> <span>+91 9880924015</span></li>
         </ul>
       </div>
     </div>  
@@ -129,7 +135,7 @@
           <div>
             <h3 class="mb-4">WEB DEVELOPMENT</h3>
             <hr class="seca">
-            <p>The website speaks a lot about your business. Get a website for your business today. </p>
+            <p>The website speaks a lot about your business.  </p>
           </div>
         </div>
       </div>
@@ -142,7 +148,7 @@
             <h3 class="mb-4">SEO</h3>
             <hr class="seca">
             <p>
-              Need your website on Search Engines like Google? I can help you to index your Business on SE.
+              Need your website on Search Engines like Google?
             </p>
           </div>
         </div>
@@ -178,11 +184,11 @@
 
   <!----------------------------------------- contact section  ---------------------------------------->
   <div class="container pb marg shadow" id="contact">
+    <h1 class="cent">CONTACT</h1>
+    <hr class="seca">
+    <h3 class="text-muted lar cen">“Those who know, do. Those that understand, teach.”</h3>
     <div class="row ">
-      <h1 class="cent">CONTACT</h1>
-      <hr class="seca">
-      <h3 class="text-muted lar cen">“Those who know, do. Those that understand, teach.”</h3>
-      <div class="col-md-6 col-lg-3 d-flex ">
+      <div class="col-md-6 col-lg-3 ">
           <div class="align-self-stretch box text-center p-4 shadow">
               <div class=" d-flex align-items-center justify-content-center">
                   <i class="fa fa-map siza"></i>
@@ -193,7 +199,7 @@
               </div>
           </div>
       </div>
-      <div class="col-md-6 col-lg-3 d-flex ">
+      <div class="col-md-6 col-lg-3 ">
           <div class="align-self-stretch box text-center p-4 shadow">
               <div class="d-flex align-items-center justify-content-center">
                   <i class="fa fa-phone-square siza"></i>
@@ -204,7 +210,7 @@
             </div>
           </div>
       </div>
-      <div class="col-md-6 col-lg-3 d-flex ">
+      <div class="col-md-6 col-lg-3  ">
           <div class="align-self-stretch box text-center p-4 shadow">
               <div class=" d-flex align-items-center justify-content-center">
                 <i class="fa fa-paper-plane siza"></i>
@@ -215,7 +221,7 @@
               </div>
           </div>
       </div>
-      <div class="col-md-6 col-lg-3 d-flex ">
+      <div class="col-md-6 col-lg-3  ">
         <div class="align-self-stretch box text-center p-4 shadow">
           <div class=" d-flex align-items-center justify-content-center">
             <i class="fa fa-globe siza"></i>
@@ -230,12 +236,10 @@
   </div>
   <!----------------------------------------------- form  --------------------------------------------->
   <div class="container marg bac shadow">
-    <div class="row block-9">
-      <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12   ">
-        <img class=" img3" src="./images/pic2.jpg" alt="mypic">
-      </div>
+    <div class="row">
       <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 order-md-last d-flex bac ">
-        <h3  class="centa text-muted">Message me</h3>
+       <div class="row">
+        <h3  class="centa text-muted text-center">Message me</h3>
         <hr class="her">
         <form action="#" class="bg-light p-4 p-md-5 contact-form">
           <div class="form-group">
@@ -255,9 +259,13 @@
           </div>
         </form>  
       </div>
-      
-     
     </div>
+      <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12   ">
+        <img class=" img3" src="./images/pic2.jpg" alt="mypic">
+      </div>
+      
+    </div>
+    
   </div>
   <!-------------------------------------------end of  form  ------------------------------------------>
   </div>
@@ -304,9 +312,9 @@
                         <hr class="sec">
                         <div class="block-23 mb-3">
                             
-                                <a href="#"><i class="fa fa- phone"><span class="text"> +91 9880924015</i></a><br>
-                                <a href="#"><i class="fa fa-map"></span><span class="text"> HKBKCE, Banglore</i></a><br>
-                                <a href="#"><i class="fa fa-envelope"><span class="text"> krishshah920@gmail.com</i></a>
+                                <a href="#"><i class="fa fa-phone"><span class="text">+91 9880924015</i></a><br>
+                                <a href="#"><i class="fa fa-map"></span><span class="text">HKBKCE, Banglore</i></a><br>
+                                <a href="#"><i class="fa fa-envelope"><span class="text">krishshah920@gmail.com</i></a>
                             
                         </div>
                     </div>
@@ -317,9 +325,9 @@
         
         <div class="container">
             <hr class="lin">
-            <div class="row text-center">
-                    <p>&copy;<script>document.write(new Date().getFullYear());</script> Lectarc Pvt. Ltd. All Rights Reserved. </p>
-                    <p>Made with <span class="fa fa-heart"></span> By <a href="#home">Lectarc</span></a>
+            
+                    <p class="text-center">&copy;<script>document.write(new Date().getFullYear());</script> Lectarc Pvt. Ltd. All Rights Reserved. </p>
+                    <p class="text-center"> Made with <span class="fa fa-heart"></span> By <a href="#home">Lectarc</span></a>
                             <!-- 
                         <button type="button butt" class="btn  btn-sm float-right"><a href="#home" > 
                         <span class="glyphicon glyphicon-chevron-up"></span></a></button> </h3>  -->
@@ -329,8 +337,8 @@
         </div>
   </footer>
   <!--------------------------------------- End of footer Section-------------------------------------->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
