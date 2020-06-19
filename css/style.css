@@ -58,12 +58,14 @@ html {
 .nav-item:hover{
     border-bottom: 3px solid red;
 }
-/* .navlink{
-    margin:0px 90px;    
-} */
 .pad{
-    padding-right:10px;
+    margin-right:10%;
 } 
+.nav-link{
+    font-size: medium;
+    font-weight: 500;
+    margin:0px 10px;
+}
 
 .colo{
     text-transform: uppercase;
@@ -235,11 +237,11 @@ ul.about-info {
 .px-5 {
         padding-right: 3rem !important; }
 .centa{
-    color: blueviolet;
     text-align:center;
     font:bold;
     font-weight:500;
     font-size: 50px;
+    color: blueviolet;
 }
 .img3{
      width: 100%;
