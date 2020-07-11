@@ -1,25 +1,18 @@
+
+
 <?php
-	$name = $_POST['name'];
-	$visitor_email = $_POST['email'];
-	$subject = $_POST['subject'];
-	$message = $_POST['message'];
-	
-	
-	$email_from = 'crazedriver920@gmail.com';
-	
-	$email_subject = "New Form Submission:";
-	
-	$email_body = "User Name:$name.\n".
-					"User Email = $visitor_email.\n".
-						"User Message: $message.\n".;
-						
-	$to = "krishshah920@gmail.com";
-	
-	$headers = "From: $email_from\r\n";
-	
-	$headers .= "Reply-To: $visitor_email \r\n";
-	
-	mail($to,$email_subject,$email_body,$headers);
-	
-	header("Location: index.html");
+if(!empty($_POST["send"])) {
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$subject = $_POST["subject"];
+	$content = $_POST["message"];
+
+	$toEmail = "admin@phppot_samples.com";
+	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
+	if(mail($toEmail, $subject, $content, $mailHeaders)) {
+	    $message = "Your contact information is received successfully.";
+	    $type = "success";
+	}
+}
+require_once "contact-view.php";
 ?>

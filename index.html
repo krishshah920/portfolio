@@ -254,7 +254,17 @@
             <textarea name="message" cols="30" rows="10" class="form-control" placeholder="Message"required></textarea>
           </div>
           <div class="form-group">
-            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            <input type="submit" name="send"value="Send Message" class="btn btn-primary py-3 px-5">
+            
+            <div id="statusMessage"> 
+              <?php
+              if (! empty($message)) {
+                  ?>
+                  <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+              <?php
+              }
+              ?>
+          </div>
           </div>
         </form>  
       </div>
