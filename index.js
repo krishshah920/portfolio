@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
-const PORT = 'krishshah920.netlify.app'
+const PORT = 'https://krishshah920.netlify.app/'
 const app = express();
 
 // View engine setup
