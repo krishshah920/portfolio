@@ -1,0 +1,26 @@
+{
+  "name": "port",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishshah920/portfolio.git"
+  },
+  "author": "Krishna Shshu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishshah920/portfolio/issues"
+  },
+  "homepage": "https://github.com/krishshah920/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "express-handlebars": "^5.0.0",
+    "nodemailer": "^6.4.10"
+  }
+}
